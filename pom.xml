@@ -52,8 +52,10 @@
         <module>milton-server-ent</module>
         <module>milton-client</module>
         <module>milton-proxy</module>
+        <!--
         <module>milton-mail-api</module>
         <module>milton-mail-server</module>
+        -->
     </modules>
     <build>
         <plugins>
