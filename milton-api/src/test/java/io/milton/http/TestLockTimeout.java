@@ -52,7 +52,7 @@ public class TestLockTimeout extends TestCase {
     public void testSingleSeconds() {
         LockTimeout t = LockTimeout.parseTimeout("Second-5");
         assertNotNull(t);
-        assertEquals(new Long(5), t.getSeconds());        
+        assertEquals(Long.valueOf(5), t.getSeconds());
     }
     
     public void testTwo() {
@@ -60,7 +60,7 @@ public class TestLockTimeout extends TestCase {
         assertNotNull(t);
         assertEquals((Object)Long.MAX_VALUE, t.getSeconds());        
         assertNotNull(t.getOtherSeconds());
-        assertEquals(new Long(5), t.getOtherSeconds()[0]);
+        assertEquals(Long.valueOf(5), t.getOtherSeconds()[0]);
         
     }
     

@@ -55,7 +55,8 @@ public class ZSyncClient implements FileSyncer{
      *
      * @param host
      * @param remotePath
-     * @param downloadTo
+     * @param localFile
+     * @param listener
      * @return - the assembled file, which probably needs to be moved to replace
      * the previous file
      * @throws IOException

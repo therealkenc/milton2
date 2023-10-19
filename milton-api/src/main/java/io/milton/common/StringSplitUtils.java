@@ -110,10 +110,10 @@ public class StringSplitUtils {
      * Replacealloccurencesofasubstringwithinastringwith
      * anotherstring.
      *
-     * @paraminStringStringtoexamine
-     * @paramoldPatternStringtoreplace
-     * @paramnewPatternStringtoinsert
-     * @returnaStringwiththereplacements
+     * @paramin StringStringtoexamine
+     * @param oldPatternStringtoreplace
+     * @param newPatternStringtoinsert
+     * @return aStringwiththereplacements
      */
     public static String replace(String inString, String oldPattern, String newPattern) {
         if (inString == null) {

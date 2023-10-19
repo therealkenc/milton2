@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="milton-api" />
+        <module name="milton-client" />
+        <module name="milton-server-ce" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="milton-proxy" target="17" />
+      <module name="milton-server-ent" target="1.8" />
+      <module name="milton.milton-api" target="17" />
+      <module name="milton.milton-client" target="17" />
+      <module name="milton.milton-server-ce" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

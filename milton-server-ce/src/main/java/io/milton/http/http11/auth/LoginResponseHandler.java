@@ -39,11 +39,11 @@ import org.slf4j.LoggerFactory;
  * This decorates a wrapped response handler, and gives it the ability to
  * generate login pages. When activated, this will suppress the http
  * authorisation status code and instead render a login page.
- *
+ * <p>
  * Note that the conditions under which a login page is produced in place of a
  * http challenge are quite specific and should not interfere with non web
  * browser user agents.
- *
+ * <p>
  * This will usually be used together with FormAuthenticationHandler and
  * CookieAuthenticationHandler to provide a complete authentication mechanism
  * integrated into the normal milton life cycle
@@ -237,7 +237,7 @@ public class LoginResponseHandler extends AbstractWrappingResponseHandler {
 		 * Return true if the request indicates that the login response should
 		 * be given as json data (ie response to an ajax login)
 		 *
-		 * @param acceptHeader
+		 * @param r
 		 * @return
 		 */
 		boolean isAjax(Resource r, Request request);
